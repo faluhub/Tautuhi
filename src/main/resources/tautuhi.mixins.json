@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.quesia.tautuhi.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ClientWorldMixin",
+    "PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "tautuhi",
+  "version": "${version}",
+  "name": "Tautuhi",
+  "description": "Simple cape mod for people who don't have a migrator cape, or for the lazy people.",
+  "authors": ["Quesia"],
+  "contact": {
+    "homepage": "https://github.com/QuesiaSR"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.quesia.tautuhi.Tautuhi"]
+  },
+  "mixins": ["tautuhi.mixins.json"],
+  "depends": {
+    "minecraft": "1.16.1"
+  }
+}
