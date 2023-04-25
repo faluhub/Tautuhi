@@ -58,7 +58,10 @@ public class PlayerHandler {
         int imgHeight = 32;
         int srcWidth = image.getWidth();
         int srcHeight = image.getHeight();
-        if (imgWidth != srcWidth || imgHeight != srcHeight) { return null; }
+        while (imgWidth < srcWidth || imgHeight < srcHeight) {
+            imgWidth *= 2;
+            imgHeight *= 2;
+        }
         NativeImage cape = new NativeImage(imgWidth, imgHeight, true);
         for (int x = 0; x < srcWidth; x++) {
             for (int y = 0; y < srcHeight; y++) {

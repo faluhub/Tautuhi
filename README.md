@@ -8,7 +8,7 @@ Simple cape mod for people who don't have a migrator cape, or for the lazy peopl
 
 Put your cape texture in `.minecraft/config`. The name of the file must be `cape.png` and must be of the PNG format.
 Use an online converter if it's not PNG format, because you can't just rename it (it will think it's corrupted).
-The size of the cape texture must be `64x32`, can't be bigger, can't be smaller.
+The size of the cape texture must be `64x32` (or any image using the `2:1` aspect ratio).
 
 Example texture (you can use this to test out the mod).
 
